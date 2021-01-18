@@ -20,6 +20,14 @@ func repeatMe(words ...string) {
 	fmt.Println(words)
 }
 
+// naked return & defer
+func lenAndUpperTwo(name string) (length int, upper string) {
+	defer fmt.Println("Defer is amazing")
+	length = len(name)
+	upper = strings.ToUpper(name)
+	return
+}
+
 func main() {
 	fmt.Println(multiply(2, 2))
 	// ignore value
@@ -27,4 +35,7 @@ func main() {
 	fmt.Println(len, upper)
 	//arrayとして返還される
 	repeatMe("yun", "kun", "woong")
+	//
+	length, uppperCase := lenAndUpperTwo("Kakao Talk")
+	fmt.Println(length, uppperCase)
 }

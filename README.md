@@ -9,3 +9,5 @@ Learning about GoLang with write simple code
         Hello World</a>
 - 02 : <a href="https://github.com/const-takeo/learninig_go/tree/main/package_imports">
         Package and Imports</a>
+- 03 : <a href="https://github.com/const-takeo/learninig_go/tree/main/funcs">
+        Variables and Functions</a>
