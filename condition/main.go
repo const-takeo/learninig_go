@@ -1,6 +1,10 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+
+	"github.com/const-takeo/learning_go/condition/switchTest"
+)
 
 func canIDrink(age int) bool {
 	//goではif文の中に変数の宣言ができる。
@@ -14,4 +18,6 @@ func canIDrink(age int) bool {
 func main() {
 	result := canIDrink(18)
 	fmt.Println(result)
+	judge := switchTest.CanIDrinkTwo(51)
+	fmt.Println(judge)
 }
