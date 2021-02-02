@@ -21,7 +21,7 @@ Learning about GoLang with write simple code
         if...else...</a>
 - 07 : <a href="https://github.com/const-takeo/learninig_go/tree/main/condition">
         Switch</a>
-- 08 : <a href="https://github.com/const-takeo/learninig_go/tree/main/condition">
+- 08 : <a href="https://github.com/const-takeo/learninig_go/tree/main/pointers">
         Pointers</a>
 - 09 : <a href="https://github.com/const-takeo/learninig_go/tree/main/condition">
         Array and Slices</a>
