@@ -25,3 +25,5 @@ Learning about GoLang with write simple code
         Pointers</a>
 - 09 : <a href="https://github.com/const-takeo/learninig_go/tree/main/iterable">
         Array and Slices</a>
+- 10 : <a href="https://github.com/const-takeo/learninig_go/tree/main/map">
+        Map</a>
