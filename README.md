@@ -23,5 +23,5 @@ Learning about GoLang with write simple code
         Switch</a>
 - 08 : <a href="https://github.com/const-takeo/learninig_go/tree/main/pointers">
         Pointers</a>
-- 09 : <a href="https://github.com/const-takeo/learninig_go/tree/main/condition">
+- 09 : <a href="https://github.com/const-takeo/learninig_go/tree/main/iterable">
         Array and Slices</a>
