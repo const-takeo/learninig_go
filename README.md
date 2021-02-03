@@ -27,3 +27,7 @@ Learning about GoLang with write simple code
         Array and Slices</a>
 - 10 : <a href="https://github.com/const-takeo/learninig_go/tree/main/map">
         Map</a>
+- 11 : <a href="https://github.com/const-takeo/learninig_go/tree/main/struct">
+        Struct</a>
+- 12 : <a href="https://github.com/const-takeo/learninig_go/tree/main/bank">
+        BankProject</a>

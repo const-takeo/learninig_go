@@ -16,5 +16,6 @@ func main() {
 		fmt.Println(err)
 		// log.Fatalln(err)
 	}
-	fmt.Println(account.Balance())
+	fmt.Println(account.Balance(), account.Owner())
+	fmt.Println(account)
 }

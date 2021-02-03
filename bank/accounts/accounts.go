@@ -49,3 +49,18 @@ func (a *Account) Withdraw(amount int) error {
 	//errorは2つのvalueを持っている error, nil
 	return nil
 }
+
+//ChangeOwner method of Account
+func (a Account) ChangeOwner(newOwner string) {
+	a.owner = newOwner
+}
+
+//Owner of the account
+func (a Account) Owner() string {
+	return a.owner
+}
+
+//goが自動的に呼び出すmethod
+func (a Account) String() string {
+	return fmt.Sprintln(a.owner, "のアカウントは\n", a.balance, "を持っています。")
+}
