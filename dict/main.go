@@ -11,15 +11,31 @@ func main() {
 	// mydict["hello"] = "hello"
 	fmt.Println(mydict["first"])
 	//use method
-	val, err := mydict.Search("first")
+	_, err := mydict.Search("first")
 	if err != nil {
 		fmt.Println(err)
 	}
-	fmt.Println(val)
 	//add
 	addErr := mydict.Add("Hello", "Greeting")
 	if addErr != nil {
 		fmt.Println(addErr)
 	}
-	fmt.Println(mydict["Hello"])
+	//iterable
+	for key, value := range mydict {
+		fmt.Println(key, value)
+	}
+	//Update
+	updateErr := mydict.Update("first", "こんばんは")
+	if updateErr != nil {
+		fmt.Println((updateErr))
+	}
+	fmt.Println(mydict.Search("first"))
+
+	//Delete
+	delErr := mydict.Delete("first")
+	if delErr != nil {
+		fmt.Println(delErr)
+	}
+	_, confirmerr := mydict.Search("first")
+	fmt.Println(confirmerr)
 }

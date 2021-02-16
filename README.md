@@ -31,5 +31,5 @@ Learning about GoLang with write simple code
         Struct</a>
 - 12 : <a href="https://github.com/const-takeo/learninig_go/tree/main/bank">
         BankProject(Methods)</a>
-- 13 : <a href="https://github.com/const-takeo/learninig_go/tree/main/bank">
+- 13 : <a href="https://github.com/const-takeo/learninig_go/tree/main/dict">
         Type & alias & method</a>
